@@ -1,0 +1,24 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    /* box-shadow: 0 0px 16px #f4f4f4 !important; */
+    border-radius: 1rem !important;
+}
+.card:hover{
+    box-shadow: 0 0px 16px #f4f4f4 !important;
+}
+.card-content{
+    background-color: #121212;
+    color:rgb(214, 201, 201);
+}
+.card-body{
+    color:unset !important;
+    line-height:0.5rem !important;
+    font-size: 1.1rem !important;
+    font-weight: bold;
+}
+.black-gradient-content{
+    background: linear-gradient(45deg,#7F8C8D, #000000);
+  }
