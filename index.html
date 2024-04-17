@@ -7,6 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Widget App</title>
   </head>
+  <style>
+    body{
+      height:100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media only screen and (max-width:800px){
+    body{
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+  </style>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
